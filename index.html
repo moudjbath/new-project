@@ -5,30 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>project</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/b724eaad6e.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-    <section class="header">
-        <nav>
-            <h3>Wood Hotel</h3>
-            <div class="nav-links">
-                <ul>
-                    <li class="about"><a href="#">About Us</a></li>
-                    <li class="room"><a href="#">Rooms</a></li>
-                    <li class="ofc"><a href="#">Offers</a></li>
-                    <li class="ofc"><a href="#">Facilities</a></li>
-                    <li class="ofc"><a href="#">Contact</a></li>
-                </ul>
+    <header class="">
+
+        <div class="header">
+
+            <div class=image-header>
+                <img class="image-header" src="image/img_slide.png" alt="">
+
+                <div class="rectangle-header">
+                    <nav>
+                        <h3>Wood Hotel</h3>
+                        <div class="nav-links">
+                            <ul>
+                                <li class=""><a href="#">About Us</a></li>
+                                <li class="room"><a href="#">Rooms</a></li>
+                                <li class="ofc"><a href="#">Offers</a></li>
+                                <li class="ofc"><a href="#">Facilities</a></li>
+                                <li class="ofc"><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <h1>ENJOY YOUR HOLIDAYS</h1>
+
+                </div>
             </div>
-        </nav>
-        <h1>ENJOY YOUR HOLIDAYS</h1>
-    </section>
+
+        </div>
+    </header>
+
+
     <section>
         <form method="post" action="traitement.php">
             <div class="formulaire">
@@ -36,7 +52,7 @@
                     <label for="pseudo">CHECK-IN DATE</label><br>
                     <input type="date" name="" id="" style="width: 337px; height: 73px;">
                 </div>
-                <div class="input2">
+                <div class="input">
                     <label for="">CHECK-OUT DATE</label> <br>
                     <input type="date" name="" id="" style="width: 337px; height: 73px;">
                 </div>
@@ -46,13 +62,19 @@
     </section>
     <section>
         <div class="bloc1">
-            <img src="image/rooms.png" alt="image de chambre">
+            <div>
+                <img src="image/rooms.png" alt="image de chambre">
+            </div>
             <div class="about">
                 <span class="welcome"> Welcome to Wood hotel</span>
                 <p>
-                    The Woods hotel, located in the very heart of Indianapolis is a welcoming retreat for either people traveling across the country or businessmen, visiting our Rustbelt state for some commercial affairs.
-                    <br> Here, we always make sure that you will have any of your needs satisfied, be it a comfortable hotel room with a strong WiFi signal and a diligent room service, a dining and lounge zone or any additional amenities a traveller might
-                    want…
+                    The Woods hotel, located in the very heart of Indianapolis is a welcoming retreat for either people
+                    traveling across the country or businessmen, visiting our Rustbelt state for some commercial
+                    affairs.
+                    <br> Here, we always make sure that you will have any of your needs satisfied, be it a comfortable
+                    hotel room with a strong WiFi signal and a diligent room service, a dining and lounge zone or any
+                    additional amenities a traveller might
+                    want...
                 </p>
                 <button class="style1" type="button">Read More</button>
             </div>
@@ -60,18 +82,18 @@
     </section>
     <section>
         <div class="rooms">Rooms and Suites</div>
-        <button class="style2" type="button">View More</button>
         <div class="images">
-            <img src="image/chambre1.png" alt="image de chambre">
-            <img src="image/chambre2.png" alt="image de chambre">
-            <img src="image/chambre3.png" alt="image de chambre">
+            <img class="chambre1" src="image/chambre1.png" width="" height="" alt="image de chambre">
+            <img class="chambre2" src="image/chambre2.png" alt="image de chambre">
+            <img src="image/chambre3.png" width="" height="" alt="image de chambre">
         </div>
+        <button class="style2" type="button">View More</button>
     </section>
     <section>
         <div class="Offer">Offers</div>
         <div class="section3">
             <div>
-                <img class="piscine" src="image/piscine 1.png" alt="image de piscine">
+                <img class="piscine" src="image/piscine 1.png" width="582px" height="438px" alt="image de piscine">
             </div>
 
             <div id="div">
@@ -81,7 +103,9 @@
 
                     <div>
                         <span class="Rest">Restaurant</span>
-                        <p class="div1-p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus natoque in nisi aliquet molestie imperdiet vel pharetra. Leo tempus adipiscing convallis id mi nunc.</p>
+                        <p class="div1-p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus
+                            natoque in nisi aliquet molestie imperdiet vel pharetra. Leo tempus adipiscing convallis id
+                            mi nunc.</p>
                     </div>
                 </div>
 
@@ -91,7 +115,9 @@
 
                     <div>
                         <span class="swim">Swimming Pool</span>
-                        <p class="div2-p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus natoque in nisi aliquet molestie imperdiet vel pharetra. Leo <br> tempus adipiscing convallis id mi nunc.</p>
+                        <p class="div2-p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus
+                            natoque in nisi aliquet molestie imperdiet vel pharetra. Leo tempus adipiscing convallis id
+                            mi nunc.</p>
                     </div>
                 </div>
 
@@ -101,7 +127,9 @@
 
                     <div>
                         <span class="conf">Conference Rooms</span>
-                        <p class="div3-p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus natoque in nisi aliquet molestie imperdiet vel pharetra. Leo tempus adipiscing convallis id mi nunc.</p>
+                        <p class="div3-p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus
+                            natoque in nisi aliquet molestie imperdiet vel pharetra. Leo tempus adipiscing convallis id
+                            mi nunc.</p>
                     </div>
                 </div>
             </div>
@@ -111,15 +139,19 @@
         <div class="love">Ours Guest Love Us</div>
         <div class="temoignage">
             <div class="guest1">
-                <p>"We stayed here with our family <br> and are fully satisfied with our <br> vacation. Rooms are very <br> modern, have all needed <br> amenities, the kitchen is very <br> delicious and service is just <br> perfect. We will for sure come
-                    <br> back."</p>
+                <p>"We stayed here with our family <br> and are fully satisfied with our <br> vacation. Rooms are very
+                    <br> modern, have all needed <br> amenities, the kitchen is very <br> delicious and service is just
+                    <br> perfect. We will for sure come
+                    <br> back."
+                </p>
                 <div class="MB">
                     <img class="man" src="image/22654-6-man-thumb 1.png" alt=""> Marvin Bahmann
                 </div>
             </div>
 
             <div class="guest2">
-                <p>The owner and staff were extremely helpful and kind and took time to ensure that we had extra information on things to do in the area and places to visit.</p>
+                <p>The owner and staff were extremely helpful and kind and took time to ensure that we had extra
+                    information on things to do in the area and places to visit.</p>
                 <div class="AI">
                     <img src="image/user2-removebg-preview 1.png" alt=""> Anabelle IVANOV
                 </div>
@@ -131,8 +163,10 @@
             <div class="location">Location</div>
 
             <div class="maps">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d50549.70630897042!2d1.2410050317138086!3d6.16167126758765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2stg!4v1652216386743!5m2!1sfr!2stg" width="1180" height="509" style="border:0;"
-                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d50549.70630897042!2d1.2410050317138086!3d6.16167126758765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2stg!4v1652216386743!5m2!1sfr!2stg"
+                    width="1180" height="509" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
         </div>
@@ -144,12 +178,14 @@
                 <form method="post" action="traitement.php"></form>
                 <div>
                     <label class="name" for="pseudo"></label>
-                    <input class="name" type="text" name="Name" id="Name" placeholder="Name" style="width: 454px; height: 86px;">
+                    <input class="name" type="text" name="Name" id="Name" placeholder="Name"
+                        style="width: 454px; height: 86px;">
                 </div>
 
                 <div>
                     <label for="pseudo"></label>
-                    <input class="email" type="email" name="emails" id="email" placeholder="Enter your email" style="width: 454px; height: 86px;">
+                    <input class="email" type="email" name="emails" id="email" placeholder="Enter your email"
+                        style="width: 454px; height: 86px;">
                 </div>
                 <button class="style3" type="button">Enter</button>
                 </form>
@@ -159,38 +195,45 @@
     <section>
         <div class="parteners">Ours Parteners</div>
         <div class="logo">
-            <img src="image/logo1.png" alt="">
-            <img src="image/logo2.png" alt="">
-            <img src="image/logo3.png" alt="">
-            <img src="image/logo4.png" alt="">
+            <img src="image/logo1.png" alt="image d'un logo">
+            <img src="image/logo2.png" alt="image d'un logo">
+            <img src="image/logo3.png" alt="image d'un logo">
+            <img src="image/logo4.png" alt="image d'un logo">
         </div>
     </section>
     <section>
-        <div class="text">
-            <div>
-                <p>For Customers <br> About Luviana <br> Customer Care/Help <br> Corporate Accounts <br> Financial Information <br> Terms & ConditionsFor Customers</p>
+        <div class="section-end">
+            <div class="text">
+                <div>
+                    <p>For Customers <br> About Luviana <br> Customer Care/Help <br> Corporate Accounts <br> Financial
+                        Information <br> Terms & ConditionsFor Customers</p>
+                </div>
+                <div>
+                    <p>Recent News <br> Our Secret Island Boat Tour Is Just for <br> You Chill and Escape in Our Natural
+                        Shelters <br> September in Luviana Hotel <br> Live Music Concerts at Luviana</p>
+                </div>
+                <div>
+                    <p>Rooms <br> King Ensuite Room <br> Deluxe Queen Room <br> Superior Double Room <br> Comfort Triple
+                        Room <br> Standard Single Room</p>
+                </div>
+                <div>
+                    <p>Contact <br> Us Wood hotel <br> 1901 Thornridge Cir. Shiloh, Hawaii <br> Phone: 01-123456789 <br>
+                        Email: info@glthemes.com</p>
+                </div>
             </div>
-            <div>
-                <p>Recent News <br> Our Secret Island Boat Tour Is Just for <br> You Chill and Escape in Our Natural Shelters <br> September in Luviana Hotel <br> Live Music Concerts at Luviana</p>
+
+
+            <div class="reseaux">
+                <a href="#"><img src="image/Instagram Circle.png" alt=""></a>
+                <a href="#"><img src="image/Twitter.png" alt=""></a>
+                <a href="#"><img src="image/Facebook F.png" alt=""></a>
             </div>
-            <div>
-                <p>Rooms <br> King Ensuite Room <br> Deluxe Queen Room <br> Superior Double Room <br> Comfort Triple Room <br> Standard Single Room</p>
-            </div>
-            <div>
-                <p>Contact <br> Us Wood hotel <br> 1901 Thornridge Cir. Shiloh, Hawaii <br> Phone: 01-123456789 <br> Email: info@glthemes.com</p>
-            </div>
+
+            <footer class="footer">
+                <small>&copy; Copyright 2022 Wood Hotel. All Rights Reserved. Powered by WordPress.</small>
+            </footer>
         </div>
     </section>
-    <section>
-        <div class="reseaux">
-            <a href="#"><img src="image/Instagram Circle.png" alt=""></a>
-            <a href="#"><img src="image/Twitter.png" alt=""></a>
-            <a href="#"><img src="image/Facebook F.png" alt=""></a>
-        </div>
-    </section>
-    <footer class="footer">
-        <small>&copy; Copyright 2022 Wood Hotel. All Rights Reserved. Powered by WordPress.</small>
-    </footer>
 </body>
 
 </html>
