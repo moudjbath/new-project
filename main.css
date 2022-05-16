@@ -28,7 +28,6 @@ nav {
 h3 {
     width: 148px;
     color: white;
-    margin-left: 166px;
     font-weight: 700;
     font-size: 32px;
 }
@@ -114,7 +113,6 @@ h1 {
     bottom: 20px;
 }
 
-
 .about {
     font-weight: 400;
     font-size: 25px;
@@ -126,8 +124,8 @@ h1 {
 .welcome {
     width: 375px;
     height: 37px;
-    left: 862px;
-    top: 1137px;
+    position: relative;
+    left: 40px;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
@@ -136,13 +134,14 @@ h1 {
     color: #000000;
 }
 
-.about p {
+.woods {
     font-weight: 400;
     font-size: 20px;
     position: relative;
-    top: 73px;
+    top: 63px;
     text-align: justify;
     transform: rotate(-0.38deg);
+    left: 40px;
 }
 
 .style1 {
@@ -177,17 +176,20 @@ h1 {
     font-weight: 500;
     font-size: 24px;
     position: relative;
-    left: 1155px;
+    left: 946px;
     top: 80px;
 }
 
 .images {
-
     display: flex;
     justify-content: space-evenly;
     position: relative;
     top: 52px;
+}
 
+.section-trois {
+    width: 1180px;
+    margin: 0 auto;
 }
 
 .Offer {
@@ -306,9 +308,12 @@ h1 {
     left: 30px;
 }
 
+.section-quatre {
+    width: 1180px;
+}
+
 .section3 {
     display: flex;
-    position: absolute;
     width: 1180px;
     top: 2350px;
     left: 30px;
@@ -333,13 +338,11 @@ h1 {
     font-size: 24px;
     position: relative;
     left: 40px;
-
 }
 
 .guest1 p {
     position: relative;
     top: 80px;
-
 }
 
 .MB {
@@ -444,7 +447,6 @@ h1 {
     left: 0px;
     top: 4553px;
     background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: relative;
     top: 870px;
 }
@@ -473,9 +475,13 @@ h1 {
 }
 
 section-end {
-    background-color: #000000;
-    top: 300px;
+    width: 1440px;
+    height: 427px;
+    left: 0px;
+    top: 4809px;
+    background: #000000;
 }
+
 
 /* The animation code */
 
@@ -483,11 +489,11 @@ section-end {
     from {
         color: red;
     }
-
     to {
         color: yellow;
     }
 }
+
 
 /* The element to apply the animation to */
 
@@ -496,42 +502,83 @@ h1 {
     animation-duration: 5s;
 }
 
-@media screen and (max-width: 320px) {
-
-    .image-header{
+@media screen and (max-width: 425px) {
+    h1 {
+        position: relative;
+        top: 144px;
+        font-size: 34px;
+    }
+    h3 {
+        width: 207px;
+        color: white;
+        font-weight: 700;
+        font-size: 32px;
+        position: relative;
+        right: 7%;
+        top: 20px;
+    }
+    li a {
+        display: none;
+    }
+    .image-header {
         width: 100%;
-        height: auto;
+        height: 418px;
     }
-
-    .rectangle-header{
+    .rectangle-header {
         width: 100%;
-        height: 25%;
+        height: 445px;
+        position: relative;
+        bottom: 449px;
     }
-
-    nav{
-        flex-direction: column;
-    }
-    
-    .formulaire{
+    .formulaire {
         flex-direction: column;
         height: auto;
-        width: 260px;
-        bottom: 387px;
+        width: 369px;
+        top: 20px;
     }
-
-    .input {
-        width: 234px;
-        height: 79px;
-        font-size: 80%
+    .style {
+        width: 335px;
+        height: 78px;
+        bottom: 70px;
+        margin-top: 70px;
+        position: relative;
+        bottom: 22px;
+        left: 16px;
     }
-    
-    .input2 {
-        width: 234px;
-        height: 79px;
-        font-size: 80%
+    .bloc1 {
+        display: block;
+        top: 67px;
+        left: 36px;
+        position: relative;
     }
-
-    .images{
+    .bloc1 img {
+        position: relative;
+        bottom: 6px;
+        width: 30%;
+    }
+    .about p {
+        font-weight: 100;
+        font-size: 10px;
+        position: relative;
+        right: 717px;
+        top: 365px;
+    }
+    .woods {
+        width: 340px;
+        position: relative;
+        top: 20px;
+    }
+    .style1 {
+        top: 86px;
+        left: 36px;
+    }
+    .rooms {
+        position: relative;
+        top: 165px;
+    }
+    .images {
         flex-direction: column;
+        top: 234px;
+        left: 36px;
     }
 }
