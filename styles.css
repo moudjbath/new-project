@@ -200,10 +200,6 @@ h1 {
     top: 75px;
 }
 
-.piscine {
-    margin-left: 48px;
-}
-
 .div1-image {
     margin: 38px 80px 16px 37px;
 }
@@ -313,7 +309,7 @@ h1 {
     width: 1180px;
     top: 124px;
     position: relative;
-    left: 493px;
+    margin: 0 auto;
 }
 
 .love {
@@ -385,7 +381,7 @@ h1 {
     position: relative;
     top: 239px;
     width: 1180px;
-    left: 486px;
+    margin: 0 auto;
 }
 
 .stay {
@@ -414,7 +410,7 @@ h1 {
     position: relative;
     top: 471px;
     width: 1180px;
-    left: 564px;
+    margin: 0 auto;
 }
 
 .location {
@@ -430,7 +426,7 @@ h1 {
     text-align: center;
     top: 350px;
     width: 1180px;
-    left: 565px;
+    margin: 0 auto;
 }
 
 .style3 {
@@ -477,7 +473,7 @@ h1 {
 .logo {
     display: flex;
     justify-content: space-evenly;
-    left: 557px;
+    margin: 0 auto;
     background: #FFFFFF;
     position: relative;
     top: 582px;
@@ -647,7 +643,7 @@ h1 {
     #div {
         position: relative;
         top: 163px;
-        right: 42px;
+        right: 511px;
     }
     .div1 {
         width: 391px;
@@ -709,8 +705,8 @@ h1 {
     .guest1 {
         width: 345px;
         height: 413px;
-        top: 43px;
-        right: 413px;
+        top: 180px;
+        right: 870px;
         font-size: 20px;
     }
     .guest1 p {
@@ -722,8 +718,27 @@ h1 {
         display: none;
     }
     .MB {
-        top: 121px;
-        left: 4px;
+        top: 159px;
+        left: 11px;
     }
-    .maps {}
+    .location {
+        top: 471px;
+    }
+    .maps {
+        right: 65px;
+    }
+    .form {
+        flex-direction: column;
+        left: 46px;
+    }
+    .name {
+        width: 366px;
+        height: 86px;
+        position: relative;
+        bottom: 39px;
+    }
+    .email {}
+    .style3 {
+        top: 43px;
+    }
 }
