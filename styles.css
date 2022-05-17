@@ -142,6 +142,7 @@ h1 {
     text-align: justify;
     transform: rotate(-0.38deg);
     left: 40px;
+    width: 376px;
 }
 
 .style1 {
@@ -363,7 +364,6 @@ h1 {
     font-weight: 400;
     font-size: 24px;
     position: relative;
-    left: 70px;
 }
 
 .guest2 p {
@@ -487,19 +487,19 @@ h1 {
     color: #FFFFFF;
 }
 
-.reseaux {
-    position: relative;
-    top: 144px;
-    left: 1334px;
-}
-
-.footer {
-    left: 274px;
-    top: 109px;
+.Copyright {
     font-weight: 400;
     font-size: 20px;
     color: #FFFFFF;
+}
+
+.foot {
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
     position: relative;
+    top: 141px;
+    left: 497px;
 }
 
 .section-end {
@@ -702,9 +702,9 @@ h1 {
         top: 388px;
     }
     .guest1 {
-        width: 414px;
+        width: 385px;
         height: 432px;
-        right: 357px;
+        left: 25px;
         top: 184px;
         font-size: 20px;
         position: relative;
@@ -712,7 +712,7 @@ h1 {
     .guest1 p {
         top: 101px;
         left: 27px;
-        width: 279px;
+        width: 306px;
     }
     .guest2 {
         display: none;
@@ -724,11 +724,20 @@ h1 {
         top: 471px;
     }
     .maps {
-        right: 65px;
+        width: 392px;
+        position: relative;
+        height: 355px;
+        top: 262px;
+        left: 5px;
+    }
+    .stay {
+        top: 563px;
     }
     .form {
         flex-direction: column;
         left: 46px;
+        top: 635px;
+        position: relative;
     }
     .name {
         width: 366px;
@@ -739,5 +748,14 @@ h1 {
     .email {}
     .style3 {
         top: 43px;
+    }
+    .parteners {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    .section-end {
+        top: 727px;
     }
 }
