@@ -85,7 +85,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     background-color: #284B63;
-    width: 1178px;
+    width: 1180px;
     height: 199px;
     bottom: 106px;
     position: relative;
@@ -343,14 +343,14 @@ h1 {
 
 .MB {
     position: relative;
-    right: 70px;
-    top: 150px;
+    right: 58px;
+    top: 164px;
 }
 
 .AI {
     position: relative;
     right: 70px;
-    top: 90px;
+    top: 166px;
 }
 
 .guest2 {
@@ -363,21 +363,20 @@ h1 {
     font-weight: 400;
     font-size: 24px;
     position: relative;
-    left: 128px;
+    left: 70px;
 }
 
 .guest2 p {
     position: relative;
-    top: 70px;
-    width: 350px;
+    top: 99px;
+    width: 438px;
     height: auto;
-    text-align: justify;
-    left: 80px;
+    left: 29px
 }
 
 .temoignage {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: relative;
     top: 239px;
     width: 1180px;
@@ -491,7 +490,7 @@ h1 {
 .reseaux {
     position: relative;
     top: 144px;
-    left: 1774px;
+    left: 1334px;
 }
 
 .footer {
@@ -643,7 +642,7 @@ h1 {
     #div {
         position: relative;
         top: 163px;
-        right: 511px;
+        right: 13px;
     }
     .div1 {
         width: 391px;
@@ -703,11 +702,12 @@ h1 {
         top: 388px;
     }
     .guest1 {
-        width: 345px;
-        height: 413px;
-        top: 180px;
-        right: 870px;
+        width: 414px;
+        height: 432px;
+        right: 357px;
+        top: 184px;
         font-size: 20px;
+        position: relative;
     }
     .guest1 p {
         top: 101px;
@@ -718,8 +718,7 @@ h1 {
         display: none;
     }
     .MB {
-        top: 159px;
-        left: 11px;
+        top: 170px;
     }
     .location {
         top: 471px;
