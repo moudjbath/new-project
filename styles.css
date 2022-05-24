@@ -104,14 +104,14 @@
      margin-right: 5px;
  }
  
- .bloc1 {
+ .section_un {
      display: flex;
      max-width: 1180px;
      margin: 0 auto;
      justify-content: space-between;
  }
  
- .bloc1 img {
+ .section_un img {
      position: relative;
      max-width: 657px;
  }
@@ -152,7 +152,7 @@
      height: 188px;
  }
  
- .style1 {
+ .button_un {
      border: 1px solid #000000;
      box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
      height: 57px;
@@ -176,7 +176,7 @@
      margin-top: 56px;
  }
  
- .style2 {
+ .button_deux {
      width: 161px;
      height: 58px;
      background: rgba(127, 79, 36, 0.59);
@@ -196,32 +196,32 @@
      top: 52px;
  }
  
- .chambre1 {
+ .chambre_un {
      max-width: 345px;
      height: 337px;
  }
  
- .chambre1 img {
+ .chambre_un img {
      width: 100%;
      height: 337px;
  }
  
- .chambre2 {
+ .chambre_deux {
      max-width: 449px;
      height: 337px;
  }
  
- .chambre2 img {
+ .chambre_deux img {
      width: 100%;
      height: 337px;
  }
  
- .chambre3 {
+ .chambre_trois {
      max-width: 328px;
      height: 337px;
  }
  
- .chambre3 img {
+ .chambre_trois img {
      width: 100%;
      height: 337px
  }
@@ -250,11 +250,11 @@
      height: 438px;
  }
  
- .div1-image {
+ .offset_un-image {
      margin: 38px 80px 16px 37px;
  }
  
- .div1-p1 {
+ .offset_un_p {
      font-weight: 400;
      font-size: 16px;
      position: relative;
@@ -273,7 +273,7 @@
      right: 20px;
  }
  
- .div1 {
+ .offset_un {
      box-sizing: border-box;
      width: 575px;
      height: 124px;
@@ -284,11 +284,11 @@
      left: 30px;
  }
  
- .div2-image {
+ .offset_deux-image {
      margin: 38px 80px 16px 37px;
  }
  
- .div2-p2 {
+ .offset_deux_p {
      font-weight: 400;
      font-size: 16px;
      position: relative;
@@ -307,7 +307,7 @@
      right: 20px;
  }
  
- .div2 {
+ .offset_deux {
      box-sizing: border-box;
      width: 575px;
      height: 124px;
@@ -319,11 +319,11 @@
      left: 30px;
  }
  
- .div3-image {
+ .offset_trois-image {
      margin: 38px 80px 16px 37px;
  }
  
- .div3-p3 {
+ .offset_trois_p {
      font-weight: 400;
      font-size: 16px;
      position: relative;
@@ -342,7 +342,7 @@
      right: 20px;
  }
  
- .div3 {
+ .offset_trois {
      box-sizing: border-box;
      width: 575px;
      height: 124px;
@@ -354,7 +354,7 @@
      left: 30px;
  }
  
- .section3 {
+ .contener {
      display: flex;
      max-width: 1180px;
      top: 124px;
@@ -476,7 +476,7 @@
  .maps {
      position: relative;
      text-align: center;
-     top: 175px;
+     top: 349px;
      width: 1180px;
      margin: 0 auto;
  }
@@ -585,39 +585,42 @@
  
  @media screen and (max-width: 1024px) {
      nav {
-         width: 940px;
+         width: 901px;
      }
      .woods {
          margin-top: 25px;
      }
-     .bloc1 img {
+     .style {
+         font-size: 22px;
+     }
+     .section_un img {
          width: 100%;
      }
-     .div1 {
+     .offset_un {
          width: 483px;
      }
-     .div2 {
+     .offset_deux {
          width: 483px;
      }
-     .div3 {
+     .offset_trois {
          width: 483px;
      }
-     .div1-p1 {
+     .offset_un_p {
          width: 391px;
      }
-     .div2-p2 {
+     .offset_deux_p {
          width: 391px;
      }
-     .div3-p3 {
+     .offset_trois_p {
          width: 391px;
      }
-     .div1-image {
+     .offset_un-image {
          margin: 36px 75px 16px 7px;
      }
-     .div2-image {
+     .offset_deux-image {
          margin: 36px 75px 16px 7px;
      }
-     .div3-image {
+     .offset_trois-image {
          margin: 36px 75px 16px 7px;
      }
      .maps {
@@ -707,13 +710,13 @@
          bottom: 22px;
          left: 16px;
      }
-     .bloc1 {
+     .section_un {
          display: block;
          top: 67px;
          left: 36px;
          position: relative;
      }
-     .bloc1 img {
+     .section_un img {
          position: relative;
          right: 12px;
          width: 90%;
@@ -731,7 +734,7 @@
          top: 16px;
          left: 2px;
      }
-     .style1 {
+     .button_un {
          top: 122px;
          left: 66px;
      }
@@ -750,20 +753,20 @@
          font-size: 30px;
          top: 20px;
      }
-     .chambre2 {
+     .chambre_deux {
          width: 346px;
          height: 347px;
      }
-     .chambre1 {
+     .chambre_un {
          position: relative;
          bottom: 31px;
      }
-     .chambre3 {
+     .chambre_trois {
          position: relative;
          top: 31px;
          width: 349px;
      }
-     .style2 {
+     .button_deux {
          top: 257px;
          right: 236px;
          ;
@@ -774,16 +777,16 @@
      .Offer {
          top: 946px;
      }
-     .section3 {
+     .contener {
          position: relative;
          top: 955px;
          right: 10px;
      }
-     .div1 {
+     .offset_un {
          width: 391px;
          height: 106px;
      }
-     .div1-image {
+     .offset_un-image {
          margin: 17px 75px 16px 6px;
      }
      .rest {
@@ -791,17 +794,17 @@
          top: 4px;
          right: 20px;
      }
-     .div1-p1 {
+     .offset_un_p {
          font-size: 13px;
          top: 7px;
          right: 66px;
          width: 315px;
      }
-     .div2 {
+     .offset_deux {
          width: 391px;
          height: 106px;
      }
-     .div2-image {
+     .offset_deux-image {
          margin: 17px 75px 16px 6px;
      }
      .swim {
@@ -809,17 +812,17 @@
          top: 3px;
          right: 50px;
      }
-     .div2-p2 {
+     .offset_deux_p {
          font-size: 13px;
          top: 7px;
          right: 70px;
          width: 315px;
      }
-     .div3 {
+     .offset_trois {
          width: 391px;
          height: 106px;
      }
-     .div3-image {
+     .offset_trois-image {
          margin: 17px 75px 16px 6px;
      }
      .conf {
@@ -827,7 +830,7 @@
          top: 3px;
          right: 65px;
      }
-     .div3-p3 {
+     .offset_trois_p {
          font-size: 13px;
          top: 7px;
          right: 70px;
