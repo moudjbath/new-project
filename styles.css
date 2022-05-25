@@ -74,7 +74,7 @@
      margin-right: 35px;
  }
  
- .input {
+ .formulaire_input {
      box-sizing: border-box;
      margin-top: 40px;
      font-weight: 700px;
@@ -82,6 +82,11 @@
      color: white;
      margin-left: 15px;
      margin-right: 15px;
+ }
+ 
+ .input {
+     width: 337px;
+     height: 73px
  }
  
  .formulaire {
@@ -95,7 +100,7 @@
      margin: 0 auto;
  }
  
- .input2 {
+ .formulaire_input_deux {
      box-sizing: border-box;
      margin-top: 40px;
      font-weight: 700px;
@@ -371,7 +376,7 @@
      top: 190px;
  }
  
- .guest1 {
+ .guest_un {
      width: 488px;
      height: 498px;
      background: #FDF9F9;
@@ -383,7 +388,7 @@
      position: relative;
  }
  
- .guest1 p {
+ .guest_un p {
      position: relative;
      top: 80px;
      width: 356px;
@@ -392,19 +397,19 @@
      left: 80px;
  }
  
- .MB {
+ .marvin {
      position: relative;
      right: 58px;
      top: 164px;
  }
  
- .AI {
+ .anabelle {
      position: relative;
      right: 70px;
      top: 166px;
  }
  
- .guest2 {
+ .guest_deux {
      width: 488px;
      height: 498px;
      background: #FDF9F9;
@@ -416,7 +421,7 @@
      position: relative;
  }
  
- .guest2 p {
+ .guest_deux p {
      position: relative;
      top: 99px;
      width: 438px;
@@ -585,354 +590,129 @@
  }
  
  @media screen and (max-width: 1024px) {
-     nav {
-         width: 901px;
+     .formulaire {
+         width: 902px;
      }
-     .woods {
-         margin-top: 25px;
+     .input {
+         width: 280px;
      }
      .style {
-         font-size: 22px;
+         width: 234px;
+         font-size: 21px;
+     }
+     .part_un {
+         max-width: 1027px;
      }
      .section_un img {
-         width: 100%;
-     }
-     .offset_un {
-         width: 483px;
-     }
-     .offset_deux {
-         width: 483px;
-     }
-     .offset_trois {
-         width: 483px;
-     }
-     .offset_un_p {
-         width: 391px;
-     }
-     .offset_deux_p {
-         width: 391px;
-     }
-     .offset_trois_p {
-         width: 391px;
-     }
-     .offset_un-image {
-         margin: 36px 75px 16px 7px;
-     }
-     .offset_deux-image {
-         margin: 36px 75px 16px 7px;
-     }
-     .offset_trois-image {
-         margin: 36px 75px 16px 7px;
-     }
-     .maps {
-         width: 831px;
-     }
-     .text {
-         width: 1010px;
-     }
-     .text-deux {
-         position: relative;
-         left: 22px;
-     }
-     .text-un {
-         position: relative;
-         left: 18px;
-     }
-     .logo {
-         right: 8px;
-     }
-     .logo1 {
-         right: 17px;
-         top: 34px;
-         position: relative;
-     }
-     .logo3 {
-         position: relative;
-         right: 47px;
-     }
-     .logo4 {
-         position: relative;
-         top: 16px;
-         right: 68px;
-     }
-     .foot {
-         width: 973px;
-     }
-     .name {
-         width: 341px;
-     }
-     .email {
-         width: 341px;
-     }
-     .form {
-         right: 29px;
-     }
- }
- 
- @media screen and (max-width: 425px) {
-     h1 {
-         position: relative;
-         top: 144px;
-         font-size: 34px;
-     }
-     h3 {
-         width: 207px;
-         color: white;
-         font-weight: 700;
-         font-size: 32px;
-         position: relative;
-         top: 32px;
-     }
-     li a {
-         display: none;
-     }
-     .image-header {
-         width: 100%;
-         height: 418px;
-     }
-     .rectangle-header {
-         width: 100%;
-         height: 445px;
-         position: relative;
-         bottom: 449px;
-     }
-     .formulaire {
-         flex-direction: column;
-         height: auto;
-         width: 369px;
-         top: 20px;
-     }
-     .style {
-         width: 335px;
-         height: 78px;
-         bottom: 70px;
-         margin-top: 70px;
-         position: relative;
-         bottom: 22px;
-         left: 16px;
+         width: 502px;
      }
      .section_un {
-         display: block;
-         top: 67px;
-         left: 36px;
-         position: relative;
-     }
-     .section_un img {
-         position: relative;
-         right: 12px;
-         width: 90%;
-     }
-     .about p {
-         font-weight: 100;
-         font-size: 10px;
-         position: relative;
-         right: 717px;
-         top: 365px;
-     }
-     .woods {
-         width: 340px;
-         position: relative;
-         top: 16px;
-         left: 2px;
+         max-width: 902px;
      }
      .button_un {
-         top: 122px;
-         left: 66px;
+         top: 49px;
+         left: 88px;
      }
-     .rooms {
+     .woods {
+         font-size: 18px;
+         max-width: 376px;
          position: relative;
-         top: 161px;
-         right: 23px;
-     }
-     .images {
-         flex-direction: column;
-         top: 206px;
-         left: 25px;
+         top: 23px;
+         margin-top: 0;
      }
      .welcome {
-         left: 30px;
-         font-size: 30px;
-         top: 20px;
+         left: 0;
      }
-     .chambre_deux {
-         width: 346px;
-         height: 347px;
+     .part_deux {
+         max-width: 1027px;
      }
-     .chambre_un {
-         position: relative;
-         bottom: 31px;
+     .section-trois {
+         max-width: 902px;
+         margin: 0 auto;
      }
-     .chambre_trois {
-         position: relative;
-         top: 31px;
-         width: 349px;
+     .chambre_deux img {
+         width: 288px;
+         height: 314px;
+     }
+     .chambre_un img {
+         width: 270px;
+         height: 314px;
+     }
+     .chambre_trois img {
+         width: 304px;
+         height: 314px;
      }
      .button_deux {
-         top: 257px;
-         right: 236px;
-         ;
-     }
-     .piscine {
-         display: none;
-     }
-     .Offer {
-         top: 946px;
+         top: 59px;
      }
      .contener {
-         position: relative;
-         top: 955px;
-         right: 10px;
+         max-width: 902px;
+     }
+     .piscine img {
+         width: 417px;
+         height: 417px;
      }
      .offset_un {
-         width: 391px;
-         height: 106px;
-     }
-     .offset_un-image {
-         margin: 17px 75px 16px 6px;
-     }
-     .rest {
-         font-size: 30px;
-         top: 4px;
-         right: 20px;
-     }
-     .offset_un_p {
-         font-size: 13px;
-         top: 7px;
-         right: 66px;
-         width: 315px;
+         width: 460px;
+         height: 118px;
+         left: 0;
      }
      .offset_deux {
-         width: 391px;
-         height: 106px;
-     }
-     .offset_deux-image {
-         margin: 17px 75px 16px 6px;
-     }
-     .swim {
-         font-size: 30px;
-         top: 3px;
-         right: 50px;
-     }
-     .offset_deux_p {
-         font-size: 13px;
-         top: 7px;
-         right: 70px;
-         width: 315px;
+         width: 460px;
+         height: 118px;
+         left: 0;
      }
      .offset_trois {
-         width: 391px;
-         height: 106px;
+         width: 460px;
+         height: 118px;
+         left: 0;
+     }
+     .offset_un-image {
+         margin: 33px 75px 24px 5px;
+     }
+     .Rest {
+         font-size: 35px;
+         top: 5px;
+     }
+     .offset_un_p {
+         top: 9px;
+         width: 380px;
+     }
+     .offset_deux-image {
+         margin: 33px 75px 24px 5px;
+     }
+     .swim {
+         font-size: 35px;
+         top: 5px;
+     }
+     .offset_deux_p {
+         top: 9px;
+         width: 380px;
      }
      .offset_trois-image {
-         margin: 17px 75px 16px 6px;
+         margin: 33px 75px 24px 5px;
      }
      .conf {
-         font-size: 30px;
-         top: 3px;
-         right: 65px;
+         font-size: 35px;
+         top: 5px;
      }
      .offset_trois_p {
-         font-size: 13px;
-         top: 7px;
-         right: 70px;
-         width: 315px;
+         top: 9px;
+         width: 380px;
      }
-     .love {
-         top: 1039px;
+     .temoignage {
+         max-width: 902px;
      }
-     .guest1 {
-         width: 385px;
-         height: 432px;
-         left: 40px;
-         top: 831px;
-         font-size: 20px;
-         position: relative;
+     .guest_un {
+         width: 401px
      }
-     .guest1 p {
-         top: 101px;
-         left: 27px;
-         width: 290px;
+     .guest_un p {
+         left: 25px;
      }
-     .guest2 {
-         display: none;
+     .guest_deux {
+         width: 401px
      }
-     .MB {
-         top: 140px;
-         right: 24px;
-     }
-     .location {
-         top: 1091px;
-     }
-     .maps {
-         width: 392px;
-         position: relative;
-         height: 355px;
-         top: 552px;
-         left: 5px;
-     }
-     .stay {
-         top: 1155px;
-     }
-     .form {
-         flex-direction: column;
-         left: 46px;
-         top: 1221px;
-         position: relative;
-     }
-     .name {
-         width: 339px;
-         height: 86px;
-         position: relative;
-         bottom: 39px;
-     }
-     .style3 {
-         top: 43px;
-     }
-     .parteners {
-         display: none;
-     }
-     .logo {
-         display: none;
-     }
-     .section-end {
-         top: 1312px;
-         height: 329px;
-     }
-     .text {
-         width: 402px;
-     }
-     .text-deux {
-         font-size: 10px;
-         left: 5px;
-     }
-     .text-un {
-         display: none;
-     }
-     .text-trois {
-         font-size: 10px;
-         position: relative;
-         left: 14px;
-     }
-     .text-quatre {
-         font-size: 10px;
-         position: relative;
-         left: 22px;
-     }
-     .foot {
-         flex-direction: column;
-         width: 413px;
-         height: 11px;
-     }
-     .Copyright {
-         font-size: 16px;
-         font-size: 16px;
-         position: relative;
-         left: 18px;
-     }
-     .reseaux {
-         position: relative;
-         left: 107px;
-         bottom: 79px;
-         width: 146px;
+     .guest_deux p {
+         width: 341px
      }
  }
