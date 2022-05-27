@@ -481,9 +481,8 @@
  
  .maps {
      position: relative;
-     text-align: center;
      top: 349px;
-     width: 1180px;
+     max-width: 1180px;
      margin: 0 auto;
  }
  
@@ -590,6 +589,9 @@
  }
  
  @media screen and (max-width: 1024px) {
+     nav {
+         padding: 4% 6%;
+     }
      .formulaire {
          width: 902px;
      }
@@ -714,5 +716,129 @@
      }
      .guest_deux p {
          width: 341px
+     }
+     .carte {
+         width: 902px;
+         left: 60px;
+         position: relative;
+     }
+     .form {
+         max-width: 902px;
+     }
+     .name {
+         width: 328px;
+     }
+     .email {
+         width: 316px;
+     }
+     .logo {
+         max-width: 902px;
+     }
+     .logo1 {
+         right: 44px;
+     }
+     .logo4 {
+         left: 44px;
+     }
+     .text {
+         max-width: 902px;
+     }
+     .foot {
+         width: 902px;
+     }
+ }
+ 
+ @media screen and (max-width: 425px) {
+     .formulaire {
+         flex-direction: column;
+         height: 482px;
+         width: 413px;
+     }
+     .input {
+         width: 358px;
+         height: 106px;
+     }
+     .formulaire_input_deux {
+         margin-left: 18px;
+         position: relative;
+         bottom: 16px;
+     }
+     .style {
+         width: 362px;
+         font-size: 25px;
+         height: 158px;
+         position: relative;
+         left: 20px;
+         bottom: 51px;
+     }
+ }
+ 
+ @media screen and (max-width: 768px) {
+     .input {
+         width: 209px;
+     }
+     .formulaire_input_deux {
+         margin-right: 18px;
+     }
+     .style {
+         margin-right: 34px;
+         font-size: 16px;
+     }
+     .formulaire {
+         width: 690px;
+     }
+     .section_un {
+         max-width: 690px;
+     }
+     .section_un img {
+         width: 384px;
+         position: relative;
+     }
+     .woods {
+         font-size: 16px;
+         margin-top: 0;
+         position: relative;
+         top: 3px;
+         max-width: 287px
+     }
+     .welcome {
+         font-size: 30px;
+     }
+     .button_un {
+         top: 41px;
+         left: 88px;
+     }
+     .rooms {
+         position: relative;
+         top: 16px;
+     }
+     .section-trois {
+         max-width: 690px;
+         margin: 0 auto;
+     }
+     .chambre_trois img {
+         width: 203px;
+         height: 314px;
+     }
+     .chambre_deux img {
+         width: 222px;
+         height: 314px;
+     }
+     .chambre_un img {
+         width: 233px;
+         height: 314px;
+     }
+     .contener {
+         flex-direction: column;
+         flex-direction: colun;
+         max-width: 902px;
+         position: relative;
+         /* left: 153px; */
+     }
+     .piscine img {
+         width: 642px;
+         height: 417px;
+         position: relative;
+         left: 51px;
      }
  }
