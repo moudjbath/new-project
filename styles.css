@@ -591,6 +591,7 @@
  @media screen and (max-width: 1024px) {
      nav {
          padding: 4% 6%;
+         margin-top: 22px;
      }
      .formulaire {
          width: 902px;
@@ -603,7 +604,7 @@
          font-size: 21px;
      }
      .part_un {
-         max-width: 1027px;
+         max-width: 1024px;
      }
      .section_un img {
          width: 502px;
@@ -626,7 +627,7 @@
          left: 0;
      }
      .part_deux {
-         max-width: 1027px;
+         max-width: 1024px;
      }
      .section-trois {
          max-width: 902px;
@@ -748,32 +749,22 @@
      }
  }
  
- @media screen and (max-width: 425px) {
-     .formulaire {
-         flex-direction: column;
-         height: 482px;
-         width: 413px;
-     }
-     .input {
-         width: 358px;
-         height: 106px;
-     }
-     .formulaire_input_deux {
-         margin-left: 18px;
-         position: relative;
-         bottom: 16px;
-     }
-     .style {
-         width: 362px;
-         font-size: 25px;
-         height: 158px;
-         position: relative;
-         left: 20px;
-         bottom: 51px;
-     }
- }
- 
  @media screen and (max-width: 768px) {
+     ul {
+         font-size: 18px;
+     }
+     li a {
+         margin-right: 50px;
+     }
+     h3 {
+         font-size: 23px;
+     }
+     nav {
+         padding: 4% 5%;
+     }
+     h1 {
+         font-size: 65px;
+     }
      .input {
          width: 209px;
      }
@@ -833,12 +824,327 @@
          flex-direction: colun;
          max-width: 902px;
          position: relative;
-         /* left: 153px; */
      }
      .piscine img {
          width: 642px;
          height: 417px;
          position: relative;
          left: 51px;
+     }
+     .offset_un {
+         left: 140px;
+     }
+     .offset_deux {
+         left: 140px;
+     }
+     .offset_trois {
+         left: 140px;
+     }
+     .temoignage {
+         max-width: 690px;
+     }
+     .guest_un {
+         width: 315px;
+         height: 472px;
+     }
+     .guest_deux {
+         width: 315px;
+         height: 472px;
+     }
+     .guest_un p {
+         width: 267px;
+     }
+     .marvin {
+         right: 16px;
+         top: 212px;
+     }
+     .guest_deux p {
+         width: 267px;
+     }
+     .anabelle {
+         position: relative;
+         right: 17px;
+         top: 166px;
+     }
+     .carte {
+         width: 760px;
+         left: 7px;
+     }
+     .form {
+         max-width: 690px;
+         flex-direction: column;
+     }
+     .name {
+         width: 542px;
+         position: relative;
+         bottom: 37px;
+     }
+     .email {
+         width: 542px;
+     }
+     .style3 {
+         position: relative;
+         top: 45px;
+     }
+     .logo {
+         max-width: 690px;
+     }
+     .logo4 {
+         display: none;
+     }
+     .logo1 {
+         right: 13px;
+     }
+     .logo3 {
+         left: 10px;
+     }
+     .text-deux {
+         display: none;
+     }
+     .text {
+         max-width: 690px;
+         flex-wrap: wrap;
+     }
+     .section-end {
+         height: 401px;
+     }
+     .foot {
+         width: 691px;
+     }
+ }
+ 
+ @media screen and (max-width: 425px) {
+     .facilities {
+         display: none;
+     }
+     .image-header {
+         width: 100%;
+         height: 418px;
+     }
+     .rectangle-header {
+         width: 100%;
+         height: 445px;
+         position: relative;
+         bottom: 449px;
+     }
+     h1 {
+         position: relative;
+         top: 144px;
+         font-size: 34px;
+     }
+     .formulaire {
+         flex-direction: column;
+         height: auto;
+         width: 417px;
+         bottom: 24px;
+     }
+     .input {
+         width: 391px;
+         height: 106px;
+     }
+     .formulaire_input_deux {
+         margin-left: 18px;
+         position: relative;
+         bottom: 16px;
+     }
+     .style {
+         width: 385px;
+         font-size: 25px;
+         height: 92px;
+         position: relative;
+         left: 20px;
+         bottom: 51px;
+     }
+     .section_un {
+         flex-direction: column;
+         position: relative;
+         left: 10px;
+     }
+     .section_un img {
+         width: 412px;
+         position: relative;
+     }
+     .woods {
+         font-size: 18px;
+         max-width: 375px;
+         left: 13px;
+     }
+     .welcome {
+         left: 40px;
+     }
+     .images {
+         flex-direction: column;
+         left: 13px
+     }
+     .chambre_un img {
+         width: 372px;
+     }
+     .chambre_deux img {
+         width: 372px;
+     }
+     .chambre_trois img {
+         width: 372px;
+     }
+     .button_deux {
+         right: 254px;
+     }
+     .contener {
+         top: 769px;
+     }
+     .Offer {
+         top: 745px;
+     }
+     .piscine img {
+         width: 409px;
+         ;
+         height: 359px;
+         position: relative;
+         left: 7px;
+     }
+     .offset_un {
+         left: 5px;
+         width: 416px;
+         bottom: 51px;
+         height: 140px;
+     }
+     .offset_un-image {
+         margin: 48px 65px 24px 5px;
+     }
+     .Rest {
+         right: 67px;
+     }
+     .offset_un_p {
+         top: 9px;
+         width: 345px;
+     }
+     .offset_deux {
+         left: 5px;
+         width: 416px;
+         top: -23px;
+         height: 140px;
+     }
+     .offset_deux-image {
+         margin: 48px 65px 24px 5px;
+     }
+     .swim {
+         right: 67px;
+     }
+     .offset_deux_p {
+         top: 9px;
+         width: 345px;
+     }
+     .offset_trois {
+         left: 5px;
+         width: 416px;
+         height: 140px;
+         top: 0px;
+     }
+     .card {
+         width: 276px;
+     }
+     .offset_trois-image {
+         margin: 48px 65px 24px 5px;
+     }
+     .conf {
+         right: 67px;
+     }
+     .piscine {
+         width: 420px;
+         height: 438px;
+     }
+     .offset_trois_p {
+         top: 9px;
+         width: 345px;
+     }
+     .love {
+         top: 816px;
+     }
+     .temoignage {
+         max-width: 690px;
+         top: 844px;
+         flex-direction: column;
+         left: 11px;
+     }
+     .guest_un {
+         width: 398px;
+     }
+     .guest_un p {
+         width: 323px;
+         left: 13px;
+     }
+     .guest_deux {
+         width: 398px;
+         position: relative;
+         top: 38px;
+     }
+     .guest_deux p {
+         width: 339px;
+         left: 16px;
+     }
+     .anabelle {
+         top: 148px;
+     }
+     .location {
+         top: 919px;
+     }
+     .maps {
+         top: 943px;
+     }
+     .carte {
+         width: 420px;
+         left: 5px;
+     }
+     .stay {
+         top: 954px;
+     }
+     .form {
+         top: 1013px;
+     }
+     .name {
+         width: 401px;
+     }
+     .email {
+         width: 401px;
+     }
+     .parteners {
+         top: 1083px;
+     }
+     .logo3 {
+         display: none;
+     }
+     .logo {
+         top: 1116px;
+     }
+     .text {
+         max-width: 399px;
+         flex-direction: column;
+     }
+     .section-end {
+         height: 943px;
+         top: 1129px;
+     }
+     .text-trois {
+         position: relative;
+         top: 69px;
+     }
+     .text-quatre {
+         position: relative;
+         top: 137px;
+     }
+     .foot {
+         width: 399px;
+         flex-direction: column;
+         top: 250px;
+     }
+     .reseaux {
+         position: relative;
+         left: 259px;
+         bottom: 38px;
+         width: 142px;
+     }
+     .Copyright {
+         font-size: 16px;
+         position: relative;
+         top: 51px;
      }
  }
