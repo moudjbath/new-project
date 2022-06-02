@@ -1,104 +1,221 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Woods hotel</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wood hotel</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b724eaad6e.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-
-    <!-- Navbar-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-5">
-        <div class="container">
-
-            <a href="#" class="navbar-brand">Wood Hotel</a>
-            <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-lable="toggle Navbar">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="mx-auto"></div>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link-text white">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link-text white">Rooms</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link-text white">Facilitiess</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link-text white">Offers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link-text white">Contact</a>
-                    </li>
-                </ul>
+    <header>
+        <div class="header">
+            <div class=image-header>
+                <img class="image-header" src="image/img_slide.png" alt="">
+                <div class="rectangle-header">
+                    <nav>
+                        <h3>Wood Hotel</h3>
+                        <div class="nav-links">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Rooms</a></li>
+                                <li><a href="#">Offers</a></li>
+                                <li class="facilities"><a href="#">Facilities</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <h1>ENJOY YOUR HOLIDAYS</h1>
+                </div>
             </div>
         </div>
-    </nav>
+    </header>
 
-    <!-- image-->
-    <div class="banner-image w-100 d-flex justify-content-center align-items-center" style="background-image: url(image/imag_fond.png);">
-        <div class="color-overlay d-flex justify-content-center align-items-center">
-            <h1 class="text-white">ENJOY YOUR HOLYDAYS</h1>
-
-        </div>
-    </div>
-
-    <!--Main content area-->
-    <div class="container" style="background-color: #284B63; height: 199px;">
-        <form class="d-flex justify-content-between">
-            <div class="form-group">
-                <label class="form-control-label" style="color: white;" for="formGroup1">CHECK-IN DATE</label>
-                <input type="Date" class="form-control" id="formGroup1">
+    <div>
+        <form method="post" action="traitement.php">
+            <div class="formulaire">
+                <div class="formulaire_input">
+                    <label for="pseudo">CHECK-IN DATE</label><br>
+                    <input class="input" type="date" name="date" id="pseudo">
+                </div>
+                <div class="formulaire_input_deux">
+                    <label for="pseudo">CHECK-OUT DATE</label> <br>
+                    <input class="input" type="date" name="date">
+                </div>
+                <button class="style" type="submit">CHECK AVAILABILITY</button>
             </div>
-            <div class="form-group">
-                <label class="form-control-label" style="color: white;" for="formGroup2">CHECK-ON DATE</label>
-                <input type="Date" class="form-control" id="formGroup2">
-            </div>
-            <button type="button" class="btn-frist" style="background-color: darkslategrey; color: white;">CHECK AVAILABILITY</button>
         </form>
     </div>
-
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-6">
-                <img src="image/rooms.png" class="img-fluid" alt="image">
+    <div class="part_un">
+        <div class="section_un">
+            <div class="image-section_deux">
+                <img src="image/rooms.png" alt="image de chambre">
             </div>
-            <div class="col-6">
-                <div class="card" style="border: 0;">
-                    <div class="card-body">
-                        <h3 class="card-title">Welcome to Wood hotel</h3>
-                        <p class="card-text mt-5" style="text-align: justify;">The Woods hotel, located in the very heart of Indianapolis is a welcoming retreat for either people traveling across the country or businessmen, visiting our Rustbelt state for some commercial affairs. Here, we always make sure
-                            that you will have any of your needs satisfied, be it a comfortable hotel room with a strong WiFi signal and a diligent room service, a dining and lounge zone or any additional amenities a traveller might want... .
-                        </p>
+
+            <div class="text-section_deux">
+                <span class="welcome"> Welcome to Wood hotel</span>
+                <p class="woods">
+                    The Woods hotel, located in the very heart of Indianapolis is a welcoming retreat for either people traveling across the country or businessmen, visiting our Rustbelt state for some commercial affairs.
+                    <br> Here, we always make sure that you will have any of your needs satisfied, be it a comfortable hotel room with a strong WiFi signal and a diligent room service, a dining and lounge zone or any additional amenities a traveller might
+                    want...
+                </p>
+                <button class="button_un" type="submit">Read More</button>
+            </div>
+        </div>
+    </div>
+    <div class="part_deux">
+        <div class="section-trois">
+
+            <div class="rooms">Rooms and Suites</div>
+            <div class="images">
+
+                <div class="chambre_un">
+                    <img src="image/chambre1.png" alt="image de chambre">
+                </div>
+
+                <div class="chambre_deux">
+                    <img src="image/chambre2.png" alt="image de chambre">
+                </div>
+
+                <div class="chambre_trois">
+                    <img src="image/chambre3.png" alt="image de chambre">
+                </div>
+
+            </div>
+            <button class="button_deux" type="submit">View More</button>
+
+        </div>
+    </div>
+    <div class="part_trois">
+        <div class="Offer">Offers</div>
+        <div class="contener">
+            <div class="piscine">
+                <img src="image/piscine1.png" alt="image de piscine">
+            </div>
+
+            <div id="offset">
+                <div class="offset_un">
+
+                    <div><img class="offset_un-image" src="image/Soup_Plate.png" alt="image de soup"></div>
+
+                    <div class="card">
+                        <span class="Rest">Restaurant</span>
+                        <p class="offset_un_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus natoque in nisi aliquet molestie imperdiet vel pharetra. Leo tempus adipiscing convallis id mi nunc.</p>
                     </div>
                 </div>
-                <button type="button" class="btn btn-secondary" style="border: 1px solid #000000;
-                box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-                height: 57px;
-                width: 175px; background-color: rgba(196, 196, 196, 0.87); color: #000; border-radius: 0;">
-                Read More</button>
+
+                <div class="offset_deux">
+
+                    <div><img class="offset_deux-image" src="image/Lap_Pool.png" alt="image de nage"></div>
+
+                    <div class="card">
+                        <span class="swim">Swimming Pool</span>
+                        <p class="offset_deux_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus natoque in nisi aliquet molestie imperdiet vel pharetra. Leo tempus adipiscing convallis id mi nunc.</p>
+                    </div>
+                </div>
+
+                <div class="offset_trois">
+
+                    <div><img class="offset_trois-image" src="image/Meeting_Room.png" alt="image de salle de conference"></div>
+
+                    <div class="card">
+                        <span class="conf">Conference Rooms</span>
+                        <p class="offset_trois_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus natoque in nisi aliquet molestie imperdiet vel pharetra. Leo tempus adipiscing convallis id mi nunc.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="container">
+    <div>
+        <div class="love">Ours Guest Love Us</div>
+        <div class="temoignage">
+            <div class="guest_un">
+                <p>"We stayed here with our family and are fully satisfied with our vacation. Rooms are very modern, have all needed amenities, the kitchen is very delicious and service is just perfect. We will for sure come back. "
+                </p>
+                <div class="marvin">
+                    <img class="man" src="image/man.png" alt="image d'un homme"> Marvin Bahmann
+                </div>
+            </div>
 
+            <div class="guest_deux">
+                <p>The owner and staff were extremely helpful and kind and took time to ensure that we had extra information on things to do in the area and places to visit.</p>
+                <div class="anabelle ">
+                    <img src="image/woman.png" alt="image d'une femme"> Anabelle IVANOV
+                </div>
+            </div>
+        </div>
     </div>
+    <div>
+        <div class="location">Location</div>
 
+        <div class="maps">
+            <iframe class="carte" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27817.278604553114!2d1.2594402039142893!3d6.181908144085652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2stg!4v1653403060367!5m2!1sfr!2stg" width="1180" height="509"
+                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
+    <div>
+        <div>
+            <div class="stay">Stay Connected</div>
+            <div>
+                <form class="form" action="traitement.php" method="post">
+                    <div>
+                        <input class="name" type="text" name="Name" id="Name" placeholder="Name">
+                    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+                    <div>
+                        <input class="email" type="email" name="emails" id="email" placeholder="Enter your email">
+                    </div>
+                    <button class="style3" type="submit">Enter</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="parteners">Ours Parteners</div>
+        <div class="logo">
+            <img class="logo1" src="image/logo1.png " alt="image d'un logo">
+            <img class="logo2" src="image/logo2.png" alt="image d'un logo ">
+            <img class="logo3" src="image/logo3.png " alt="image d'un logo">
+            <img class="logo4" src="image/logo4.png" alt="image d'un logo ">
+        </div>
+    </div>
+    <div>
+        <div class="section-end">
+            <div class="text">
+                <div class="text-un">
+                    <p>For Customers <br> <br> About Luviana <br> <br> Customer Care/Help <br> <br> Corporate Accounts <br> <br> Financial Information <br> <br> Terms & ConditionsFor Customers</p>
+                </div>
+                <div class="text-deux">
+                    <p>Recent News <br> <br> Our Secret Island Boat Tour Is Just for <br> <br> You Chill and Escape in Our Natural Shelters <br> <br> September in Luviana Hotel <br> <br> <br> Live Music Concerts at Luviana.</p>
+                </div>
+                <div class="text-trois">
+                    <p>Rooms <br> <br> King Ensuite Room <br> <br> Deluxe Queen Room <br> <br> Superior Double Room <br> <br> Comfort Triple Room <br> <br> Standard Single Room</p>
+                </div>
+                <div class="text-quatre">
+                    <p>Contact <br> <br> Us Wood hotel <br> <br> 1901 Thornridge Cir. Shiloh, Hawaii <br> <br> Phone: 01-123456789 <br> <br> Email: info@glthemes.com</p>
+                </div>
+            </div>
+
+            <div class="foot">
+                <div class="Copyright">
+                    <small>&copy; Copyright 2022 Wood Hotel. All Rights Reserved. Powered by WordPress.</small>
+                </div>
+
+                <div class="reseaux">
+                    <a href="#"><img src="image/Instagram.png" alt="icone Instagram"></a>
+                    <a href="#"><img src="image/Twitter.png" alt="icone Twitter"></a>
+                    <a href="#"><img src="image/Facebook.png" alt="icone Facebook"></a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
